@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator8</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form class="f-calc" action="index.html" method="post">
+      <h2>Clacul8</h2>
+      <div class="form-wrap">
+      <div class="box1">
+        <!--value 1:--> <input type="number" id="value1"  name="" value="" placeholder="value 1">
+      </div>
+      <select class="operator" name="">
+        <option value="add">Plus</option>
+        <option value="min">Minus</option>
+        <option value="mul">Multiplied By</option>
+        <option value="div">Divided by</option>
+      </select>
+
+      <div class="box1">
+        <!--value 2:--> <input type="number" id="value2"  name="" value="" placeholder="value 2">
+      </div>
+    <div class="bottom">
+      <div class= "results-wrap">
+        <div class="text">
+         result:
+        </div>
+        <div class="result">
+        </div>
+      </div>
+        <button type="button" id="button" name="calculate" onclick="addOp();">calculate</button>
+          </div>
+      </div>
+    </form>
+  </body>
+  <script src="func.js" charset="utf-8"></script>
+</html>
